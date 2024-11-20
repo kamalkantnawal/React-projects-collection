@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  
+}
+#root {
+  overflow: hidden;
+}
+
+:root {
+  --bg:#e7e4e4;
+}
+
+body {
+  background-color: var(--bg);
+  
+}
+.center-app {
+     position: fixed;
+      margin: auto;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;    
+        
+}
+.app-content {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 10;
+  padding: 10;
+  width:25vw;
+  height: 75vh;;
+}
